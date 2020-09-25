@@ -1,6 +1,6 @@
-# Tyrannogotchi
+# Tyrannogotchi :t-rex:
 
-CodeClan JavaScript Group Project
+CodeClan JavaScript/Java Group Project
 
 ### How to run the application
 
@@ -56,3 +56,11 @@ A user should be able to:
 - Score system where the user receives points for taking care of the dinosaurs
 - Drag and drop for putting dinosaurs into the pens
 
+### Technologies used
+
+- JavaScript
+- React
+- Java
+- Spring
+- Okta
+- CSS, Bootstrap
