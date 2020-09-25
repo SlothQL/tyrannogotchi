@@ -36,3 +36,23 @@ spring:
 * Run ```npm i``` in the Terminal
 * ```npm install bootstrap@4.1.3 react-cookie@3.0.4 react-router-dom@4.3.1 reactstrap@6.5.0```
 * Run ```npm start```  to start the frontend of the app 
+* Open http://localhost:3000/
+
+### The brief 
+
+Tyrannogotchi is a browser game application where a user can create an account and choose dinosaurs to take care of by feeding and healing them and choose which pen they live in.
+
+A user should be able to:
+
+- Create an account
+- Choose three dinosaurs from the database
+- Have a choice of two pens to put their dinosaurs in
+- Keep their dinosaurs happy, healthy and full, otherwise they'll die
+- Save the game progress
+
+### Extensions
+
+- Random events for example all dinosaurs breaking out of their pens
+- Score system where the user receives points for taking care of the dinosaurs
+- Drag and drop for putting dinosaurs into the pens
+
