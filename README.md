@@ -31,3 +31,8 @@ spring:
 ```
 * Install the Lombok plugin in IntelliJ IDEA > Preferences > Plugins
 * Run ```./mvnw spring-boot:run```  in the Terminal to start the backend of the app 
+
+#### Frontend
+* Run ```npm i``` in the Terminal
+* ```npm install bootstrap@4.1.3 react-cookie@3.0.4 react-router-dom@4.3.1 reactstrap@6.5.0```
+* Run ```npm start```  to start the frontend of the app 
