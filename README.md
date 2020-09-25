@@ -5,7 +5,7 @@ CodeClan JavaScript Group Project
 ### How to run the application
 
 #### Backend
-* Create a free [Okta Developer account] (https://developer.okta.com/)
+* Create a free [Okta Developer account(https://developer.okta.com/)]
 * Log in to your Okta account and navigate to Applications > Add Application
 * Click Web and then Next
 * Name your app and specify http://localhost:8080/login/oauth2/code/okta as a Login redirect URI
