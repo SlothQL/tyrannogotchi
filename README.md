@@ -12,7 +12,7 @@ CodeClan JavaScript/Java Group Project
 * Click Done, then click Edit to edit General Settings
 * Add http://localhost:3000 and http://localhost:8080 as Logout redirect URIs, then save again
 * Open backend folder with IntelliJ IDEA
-* Create application.yml file inside src/main/resources/
+* Create application.yml file inside src/main/resources
 * Copy and paste the URI of your default authorization server, client ID, and the client secret and add it to the file like this: 
 
 ```java
@@ -40,7 +40,7 @@ spring:
 
 ### The brief 
 
-Tyrannogotchi is a browser game application where a user can create an account and choose dinosaurs to take care of by feeding and healing them and choose which pen they live in.
+Tyrannogotchi is a browser game application where a user can create an account, choose dinosaurs to take care of by feeding and healing them and choose which pen they live in.
 
 A user should be able to:
 
@@ -52,7 +52,7 @@ A user should be able to:
 
 ### Extensions
 
-- Random events for example all dinosaurs breaking out of their pens
+- Random events such as all dinosaurs breaking out of their pens
 - Score system where the user receives points for taking care of the dinosaurs
 - Drag and drop for putting dinosaurs into the pens
 
@@ -64,3 +64,23 @@ A user should be able to:
 - Spring
 - Okta
 - CSS, Bootstrap
+
+### Reflection
+
+As we went along, we made some slight adjustments to our original brief. The time constraint for the app was one week and implementing and understanding OAuth 2.0 authentication took longer than expected. We kept the users ability to create an account and the save game persistence, but simplified the game. We decided that it would be best to start off with a more traditional tamagotchi game and keep some of the original ideas as possible extensions. 
+
+When opening the Application the user is asked to log in:
+
+![](images/homepage.png)
+
+Because we used Okta as our Authentication provider, after clicking the Login button the user is transferred to this page, where they can either sign in or sign up.
+
+![](images/okta-sign-in.png)
+
+Once this process is completed, the user can start the game. If they never played before they will start from scratch, but if they already played Tyrannogotchi and saved it, they will return to the previous state of the game.
+
+The dinosaur has three moods: happy, hungry or ill. Once the dinosaur is no longer happy, a user interaction is required to change the state back to happy. The user has a given time for this interaction othwerwise the dinosaur will die.
+
+![](images/hungry-dino.png)
+
+![](images/rip-dino.png)
